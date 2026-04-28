@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>AR Compass Scene</title>
+    <link rel="stylesheet" href="./style.css">
+  </head>
+  <body>
+    <!-- Background video for AR pass-through -->
+    <video id="webcam-video" autoplay playsinline muted></video>
+    
+    <!-- Three.js Canvas container -->
+    <div id="app"></div>
+
+    <!-- UI Overlay -->
+    <div id="ui-container">
+      <div id="status-panel">
+        <h1>AR Compass System</h1>
+        <p id="instruction-text">Press <kbd>L</kbd> to activate tracking</p>
+        <p id="compass-status">Compass: <span id="heading-val">0</span>°</p>
+      </div>
+    </div>
+
+    <!-- Start Experience Button (Required for Audio/Video/Orientation permissions on iOS) -->
+    <div id="start-screen">
+      <div class="glass-card">
+        <h2>Initialize AR</h2>
+        <p>This experience requires camera and device orientation access.</p>
+        <button id="start-btn">Start Experience</button>
+      </div>
+    </div>
+
+    <script type="module" src="./main.js"></script>
+  </body>
+</html>

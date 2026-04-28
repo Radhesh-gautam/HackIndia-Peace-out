@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap');
+
+:root {
+  --primary-glow: #00ffcc;
+  --bg-dark: #0a0a0f;
+  --text-main: #f0f0f5;
+  --glass-bg: rgba(20, 20, 30, 0.4);
+  --glass-border: rgba(255, 255, 255, 0.1);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body, html {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  font-family: 'Inter', sans-serif;
+  background-color: var(--bg-dark);
+  color: var(--text-main);
+}
+
+/* Background video */
+#webcam-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  z-index: 1;
+  transform: scaleX(-1); /* Mirror webcam */
+  opacity: 0;
+  transition: opacity 1s ease;
+}
+
+#webcam-video.active {
+  opacity: 1;
+}
+
+/* ThreeJS App Container */
+#app {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  pointer-events: none; /* Let clicks pass through if needed */
+}
+
+/* UI Overlay */
+#ui-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+  pointer-events: none;
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+}
+
+#status-panel {
+  background: var(--glass-bg);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid var(--glass-border);
+  padding: 1.5rem;
+  border-radius: 16px;
+  max-width: 350px;
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin-bottom: 0.5rem;
+  color: var(--primary-glow);
+  text-shadow: 0 0 10px rgba(0, 255, 204, 0.5);
+}
+
+#instruction-text {
+  font-size: 0.9rem;
+  margin-bottom: 0.8rem;
+  color: #ccc;
+}
+
+kbd {
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 4px;
+  padding: 0.1rem 0.4rem;
+  font-family: monospace;
+  font-weight: bold;
+}
+
+#compass-status {
+  font-size: 0.85rem;
+  font-weight: 300;
+  color: #aaa;
+}
+
+#heading-val {
+  font-weight: 600;
+  color: #fff;
+}
+
+/* Start Screen */
+#start-screen {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 20;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.8);
+  backdrop-filter: blur(8px);
+  transition: opacity 0.5s ease;
+}
+
+.glass-card {
+  background: var(--glass-bg);
+  border: 1px solid var(--glass-border);
+  padding: 3rem;
+  border-radius: 20px;
+  text-align: center;
+  max-width: 400px;
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.5);
+}
+
+.glass-card h2 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+.glass-card p {
+  color: #aaa;
+  margin-bottom: 2rem;
+  line-height: 1.5;
+}
+
+#start-btn {
+  background: transparent;
+  color: var(--primary-glow);
+  border: 2px solid var(--primary-glow);
+  padding: 1rem 2rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-family: 'Inter', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+#start-btn:hover {
+  background: var(--primary-glow);
+  color: var(--bg-dark);
+  box-shadow: 0 0 20px var(--primary-glow);
+}

@@ -1,0 +1,14 @@
+{
+    "pari bona": {
+        "relationship": "dost",
+        "image_path": "known_faces\\pari_bona.jpg",
+        "last_seen": "2026-04-28 14:42",
+        "summary": "Had a friendly morning greeting."
+    },
+    "Radhe": {
+        "relationship": "Brother",
+        "image_path": "known_faces\\Radhe.jpg",
+        "last_seen": "2026-04-28 15:21",
+        "summary": "Planned for the upcoming weekend."
+    }
+}

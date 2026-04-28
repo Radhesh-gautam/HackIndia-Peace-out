@@ -1,0 +1,339 @@
+﻿Defaulting to user installation because normal site-packages is not writeable
+Collecting opencv-python
+  Using cached opencv_python-4.13.0.92-cp37-abi3-win_amd64.whl.metadata (20 kB)
+Collecting deepface
+  Using cached deepface-0.0.99-py3-none-any.whl.metadata (34 kB)
+Collecting tf-keras
+  Using cached tf_keras-2.21.0-py3-none-any.whl.metadata (1.8 kB)
+Collecting numpy
+  Using cached numpy-2.4.4-cp314-cp314-win_amd64.whl.metadata (6.6 kB)
+Collecting pyttsx3
+  Using cached pyttsx3-2.99-py3-none-any.whl.metadata (6.2 kB)
+Collecting requests>=2.27.1 (from deepface)
+  Using cached requests-2.33.1-py3-none-any.whl.metadata (4.8 kB)
+Collecting pandas>=0.23.4 (from deepface)
+  Using cached pandas-3.0.2-cp314-cp314-win_amd64.whl.metadata (19 kB)
+Collecting gdown>=3.10.1 (from deepface)
+  Using cached gdown-6.0.0-py3-none-any.whl.metadata (7.4 kB)
+Collecting tqdm>=4.30.0 (from deepface)
+  Using cached tqdm-4.67.3-py3-none-any.whl.metadata (57 kB)
+Collecting Pillow>=5.2.0 (from deepface)
+  Using cached pillow-12.2.0-cp314-cp314-win_amd64.whl.metadata (9.0 kB)
+INFO: pip is looking at multiple versions of deepface to determine which version is compatible with other requirements. This could take a while.
+Collecting deepface
+  Using cached deepface-0.0.98-py3-none-any.whl.metadata (33 kB)
+  Using cached deepface-0.0.97-py3-none-any.whl.metadata (33 kB)
+  Using cached deepface-0.0.96-py3-none-any.whl.metadata (35 kB)
+  Using cached deepface-0.0.95-py3-none-any.whl.metadata (35 kB)
+  Using cached deepface-0.0.94-py3-none-any.whl.metadata (35 kB)
+  Using cached deepface-0.0.93-py3-none-any.whl.metadata (30 kB)
+  Using cached deepface-0.0.92-py3-none-any.whl.metadata (27 kB)
+INFO: pip is still looking at multiple versions of deepface to determine which version is compatible with other requirements. This could take a while.
+  Using cached deepface-0.0.91-py3-none-any.whl.metadata (26 kB)
+  Using cached deepface-0.0.90-py3-none-any.whl.metadata (26 kB)
+  Using cached deepface-0.0.89-py3-none-any.whl.metadata (26 kB)
+  Using cached deepface-0.0.88-py3-none-any.whl.metadata (26 kB)
+  Using cached deepface-0.0.87-py3-none-any.whl.metadata (26 kB)
+INFO: This is taking longer than usual. You might need to provide the dependency resolver with stricter constraints to reduce runtime. See https://pip.pypa.io/warnings/backtracking for guidance. If you want to abort this run, press Ctrl + C.
+  Using cached deepface-0.0.86-py3-none-any.whl.metadata (24 kB)
+  Using cached deepface-0.0.85-py3-none-any.whl.metadata (24 kB)
+  Using cached deepface-0.0.84-py3-none-any.whl.metadata (24 kB)
+  Using cached deepface-0.0.83-py3-none-any.whl.metadata (24 kB)
+  Using cached deepface-0.0.82-py3-none-any.whl.metadata (24 kB)
+  Using cached deepface-0.0.81-py3-none-any.whl.metadata (24 kB)
+  Using cached deepface-0.0.80-py3-none-any.whl.metadata (24 kB)
+  Using cached deepface-0.0.79-py3-none-any.whl.metadata (26 kB)
+  Using cached deepface-0.0.78-py3-none-any.whl.metadata (24 kB)
+  Using cached deepface-0.0.75-py3-none-any.whl.metadata (19 kB)
+  Using cached deepface-0.0.74-py3-none-any.whl.metadata (19 kB)
+  Using cached deepface-0.0.73-py3-none-any.whl.metadata (19 kB)
+  Using cached deepface-0.0.72-py3-none-any.whl.metadata (19 kB)
+  Using cached deepface-0.0.71-py3-none-any.whl.metadata (19 kB)
+  Using cached deepface-0.0.70-py3-none-any.whl.metadata (18 kB)
+  Using cached deepface-0.0.69-py3-none-any.whl.metadata (18 kB)
+  Using cached deepface-0.0.68-py3-none-any.whl.metadata (16 kB)
+  Using cached deepface-0.0.67-py3-none-any.whl.metadata (16 kB)
+  Using cached deepface-0.0.66-py3-none-any.whl.metadata (16 kB)
+  Using cached deepface-0.0.65-py3-none-any.whl.metadata (16 kB)
+  Using cached deepface-0.0.64-py3-none-any.whl.metadata (16 kB)
+  Using cached deepface-0.0.63-py3-none-any.whl.metadata (19 kB)
+  Using cached deepface-0.0.62-py3-none-any.whl.metadata (20 kB)
+  Using cached deepface-0.0.61-py3-none-any.whl.metadata (20 kB)
+  Using cached deepface-0.0.60-py3-none-any.whl.metadata (20 kB)
+  Using cached deepface-0.0.59-py3-none-any.whl.metadata (20 kB)
+  Using cached deepface-0.0.58-py3-none-any.whl.metadata (21 kB)
+  Using cached deepface-0.0.57-py3-none-any.whl.metadata (21 kB)
+  Using cached deepface-0.0.56-py3-none-any.whl.metadata (20 kB)
+  Using cached deepface-0.0.55-py3-none-any.whl.metadata (20 kB)
+  Using cached deepface-0.0.54-py3-none-any.whl.metadata (20 kB)
+  Using cached deepface-0.0.53-py3-none-any.whl.metadata (20 kB)
+  Using cached deepface-0.0.52-py3-none-any.whl.metadata (20 kB)
+  Using cached deepface-0.0.51-py3-none-any.whl.metadata (21 kB)
+  Using cached deepface-0.0.50-py3-none-any.whl.metadata (21 kB)
+  Using cached deepface-0.0.49-py3-none-any.whl.metadata (17 kB)
+  Using cached deepface-0.0.48-py3-none-any.whl.metadata (17 kB)
+  Using cached deepface-0.0.47-py3-none-any.whl.metadata (16 kB)
+  Using cached deepface-0.0.46-py3-none-any.whl.metadata (16 kB)
+  Using cached deepface-0.0.45-py3-none-any.whl.metadata (16 kB)
+  Using cached deepface-0.0.44-py3-none-any.whl.metadata (16 kB)
+  Using cached deepface-0.0.43-py3-none-any.whl.metadata (16 kB)
+  Using cached deepface-0.0.41-py3-none-any.whl.metadata (15 kB)
+  Using cached deepface-0.0.40-py3-none-any.whl.metadata (15 kB)
+  Using cached deepface-0.0.39-py3-none-any.whl.metadata (15 kB)
+  Using cached deepface-0.0.38-py3-none-any.whl.metadata (15 kB)
+  Using cached deepface-0.0.37-py3-none-any.whl.metadata (15 kB)
+  Using cached deepface-0.0.36-py3-none-any.whl.metadata (15 kB)
+  Using cached deepface-0.0.35-py3-none-any.whl.metadata (14 kB)
+  Using cached deepface-0.0.34-py3-none-any.whl.metadata (13 kB)
+  Using cached deepface-0.0.33-py3-none-any.whl.metadata (13 kB)
+  Using cached deepface-0.0.32-py3-none-any.whl.metadata (13 kB)
+  Using cached deepface-0.0.31-py3-none-any.whl.metadata (13 kB)
+  Using cached deepface-0.0.30-py3-none-any.whl.metadata (13 kB)
+  Using cached deepface-0.0.26-py3-none-any.whl.metadata (15 kB)
+  Using cached deepface-0.0.25-py3-none-any.whl.metadata (15 kB)
+  Using cached deepface-0.0.24-py3-none-any.whl.metadata (13 kB)
+  Using cached deepface-0.0.23-py3-none-any.whl.metadata (13 kB)
+  Using cached deepface-0.0.22-py3-none-any.whl.metadata (12 kB)
+  Using cached deepface-0.0.21-py3-none-any.whl.metadata (12 kB)
+  Using cached deepface-0.0.20-py3-none-any.whl.metadata (10 kB)
+  Using cached deepface-0.0.19-py3-none-any.whl.metadata (10 kB)
+  Using cached deepface-0.0.18-py3-none-any.whl.metadata (9.6 kB)
+  Using cached deepface-0.0.16-py3-none-any.whl.metadata (9.6 kB)
+  Using cached deepface-0.0.15-py3-none-any.whl.metadata (9.7 kB)
+  Using cached deepface-0.0.14-py3-none-any.whl.metadata (9.7 kB)
+Collecting matplotlib>=2.2.2 (from deepface)
+  Using cached matplotlib-3.10.8-cp314-cp314-win_amd64.whl.metadata (52 kB)
+Collecting deepface
+  Using cached deepface-0.0.13-py3-none-any.whl.metadata (9.7 kB)
+  Using cached deepface-0.0.12-py3-none-any.whl.metadata (9.2 kB)
+  Using cached deepface-0.0.11-py3-none-any.whl.metadata (9.2 kB)
+  Using cached deepface-0.0.10-py3-none-any.whl.metadata (9.2 kB)
+  Using cached deepface-0.0.9-py3-none-any.whl.metadata (8.6 kB)
+  Using cached deepface-0.0.7-py3-none-any.whl.metadata (8.3 kB)
+  Using cached deepface-0.0.6-py3-none-any.whl.metadata (7.9 kB)
+  Using cached deepface-0.0.5-py3-none-any.whl.metadata (8.3 kB)
+  Using cached deepface-0.0.4-py3-none-any.whl.metadata (8.1 kB)
+  Using cached deepface-0.0.3-py3-none-any.whl.metadata (8.1 kB)
+  Using cached deepface-0.0.2-py3-none-any.whl.metadata (8.0 kB)
+  Using cached deepface-0.0.1-py3-none-any.whl.metadata (4.4 kB)
+Collecting opencv-python
+  Using cached opencv_python-4.13.0.90-cp37-abi3-win_amd64.whl.metadata (20 kB)
+pip : ERROR: Cannot 
+install deepface==0.0.1, 
+deepface==0.0.10, 
+deepface==0.0.11, 
+deepface==0.0.12, 
+deepface==0.0.13, 
+deepface==0.0.14, 
+deepface==0.0.15, 
+deepface==0.0.16, 
+deepface==0.0.18, 
+deepface==0.0.19, 
+deepface==0.0.2, 
+deepface==0.0.20, 
+deepface==0.0.21, 
+deepface==0.0.22, 
+deepface==0.0.23, 
+deepface==0.0.24, 
+deepface==0.0.25, 
+deepface==0.0.26, 
+deepface==0.0.3, 
+deepface==0.0.30, 
+deepface==0.0.31, 
+deepface==0.0.32, 
+deepface==0.0.33, 
+deepface==0.0.34, 
+deepface==0.0.35, 
+deepface==0.0.36, 
+deepface==0.0.37, 
+deepface==0.0.38, 
+deepface==0.0.39, 
+deepface==0.0.4, 
+deepface==0.0.40, 
+deepface==0.0.41, 
+deepface==0.0.43, 
+deepface==0.0.44, 
+deepface==0.0.45, 
+deepface==0.0.46, 
+deepface==0.0.47, 
+deepface==0.0.48, 
+deepface==0.0.49, 
+deepface==0.0.5, 
+deepface==0.0.50, 
+deepface==0.0.51, 
+deepface==0.0.52, 
+deepface==0.0.53, 
+deepface==0.0.54, 
+deepface==0.0.55, 
+deepface==0.0.56, 
+deepface==0.0.57, 
+deepface==0.0.58, 
+deepface==0.0.59, 
+deepface==0.0.6, 
+deepface==0.0.60, 
+deepface==0.0.61, 
+deepface==0.0.62, 
+deepface==0.0.63, 
+deepface==0.0.64, 
+deepface==0.0.65, 
+deepface==0.0.66, 
+deepface==0.0.67, 
+deepface==0.0.68, 
+deepface==0.0.69, 
+deepface==0.0.7, 
+deepface==0.0.70, 
+deepface==0.0.71, 
+deepface==0.0.72, 
+deepface==0.0.73, 
+deepface==0.0.74, 
+deepface==0.0.75, 
+deepface==0.0.78, 
+deepface==0.0.79, 
+deepface==0.0.80, 
+deepface==0.0.81, 
+deepface==0.0.82, 
+deepface==0.0.83, 
+deepface==0.0.84, 
+deepface==0.0.85, 
+deepface==0.0.86, 
+deepface==0.0.87, 
+deepface==0.0.88, 
+deepface==0.0.89, 
+deepface==0.0.9, 
+deepface==0.0.90, 
+deepface==0.0.91, 
+deepface==0.0.92, 
+deepface==0.0.93, 
+deepface==0.0.94, 
+deepface==0.0.95, 
+deepface==0.0.96, 
+deepface==0.0.97, 
+deepface==0.0.98 and 
+deepface==0.0.99 because 
+these package versions 
+have conflicting 
+dependencies.
+At line:1 char:1
++ pip install 
+opencv-python deepface 
+tf-keras numpy pyttsx3 
+2>&1 | Out- ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~
+    + CategoryInfo        
+      : NotSpecified    : 
+(ERROR: Cannot i.    ..g 
+dependencies.:S    tring) 
+[], RemoteEx    ception
+    + FullyQualifiedErr   
+ orId : NativeComman    
+dError
+ 
+
+The conflict is caused by:
+    deepface 0.0.99 depends on tensorflow>=1.9.0
+    deepface 0.0.98 depends on tensorflow>=1.9.0
+    deepface 0.0.97 depends on tensorflow>=1.9.0
+    deepface 0.0.96 depends on tensorflow>=1.9.0
+    deepface 0.0.95 depends on tensorflow>=1.9.0
+    deepface 0.0.94 depends on tensorflow>=1.9.0
+    deepface 0.0.93 depends on tensorflow>=1.9.0
+    deepface 0.0.92 depends on tensorflow>=1.9.0
+    deepface 0.0.91 depends on tensorflow>=1.9.0
+    deepface 0.0.90 depends on tensorflow>=1.9.0
+    deepface 0.0.89 depends on tensorflow>=1.9.0
+    deepface 0.0.88 depends on tensorflow>=1.9.0
+    deepface 0.0.87 depends on tensorflow>=1.9.0
+    deepface 0.0.86 depends on tensorflow>=1.9.0
+    deepface 0.0.85 depends on tensorflow>=1.9.0
+    deepface 0.0.84 depends on tensorflow>=1.9.0
+    deepface 0.0.83 depends on tensorflow>=1.9.0
+    deepface 0.0.82 depends on tensorflow>=1.9.0
+    deepface 0.0.81 depends on tensorflow>=1.9.0
+    deepface 0.0.80 depends on tensorflow>=1.9.0
+    deepface 0.0.79 depends on tensorflow>=1.9.0
+    deepface 0.0.78 depends on tensorflow>=1.9.0
+    deepface 0.0.75 depends on tensorflow>=1.9.0
+    deepface 0.0.74 depends on tensorflow>=1.9.0
+    deepface 0.0.73 depends on tensorflow>=1.9.0
+    deepface 0.0.72 depends on tensorflow>=1.9.0
+    deepface 0.0.71 depends on tensorflow>=1.9.0
+    deepface 0.0.70 depends on tensorflow>=1.9.0
+    deepface 0.0.69 depends on tensorflow>=1.9.0
+    deepface 0.0.68 depends on tensorflow>=1.9.0
+    deepface 0.0.67 depends on tensorflow>=1.9.0
+    deepface 0.0.66 depends on tensorflow>=1.9.0
+    deepface 0.0.65 depends on tensorflow>=1.9.0
+    deepface 0.0.64 depends on tensorflow>=1.9.0
+    deepface 0.0.63 depends on tensorflow>=1.9.0
+    deepface 0.0.62 depends on tensorflow>=1.9.0
+    deepface 0.0.61 depends on tensorflow>=1.9.0
+    deepface 0.0.60 depends on tensorflow>=1.9.0
+    deepface 0.0.59 depends on tensorflow>=1.9.0
+    deepface 0.0.58 depends on tensorflow>=1.9.0
+    deepface 0.0.57 depends on tensorflow>=1.9.0
+    deepface 0.0.56 depends on tensorflow>=1.9.0
+    deepface 0.0.55 depends on tensorflow>=1.9.0
+    deepface 0.0.54 depends on tensorflow>=1.9.0
+    deepface 0.0.53 depends on tensorflow>=1.9.0
+    deepface 0.0.52 depends on tensorflow>=1.9.0
+    deepface 0.0.51 depends on tensorflow>=1.9.0
+    deepface 0.0.50 depends on tensorflow>=1.9.0
+    deepface 0.0.49 depends on tensorflow>=1.9.0
+    deepface 0.0.48 depends on tensorflow>=1.9.0
+    deepface 0.0.47 depends on tensorflow>=1.9.0
+    deepface 0.0.46 depends on tensorflow>=1.9.0
+    deepface 0.0.45 depends on tensorflow>=1.9.0
+    deepface 0.0.44 depends on tensorflow>=1.9.0
+    deepface 0.0.43 depends on tensorflow>=1.9.0
+    deepface 0.0.41 depends on tensorflow>=1.9.0
+    deepface 0.0.40 depends on tensorflow>=1.9.0
+    deepface 0.0.39 depends on tensorflow>=1.9.0
+    deepface 0.0.38 depends on tensorflow>=1.9.0
+    deepface 0.0.37 depends on tensorflow>=1.9.0
+    deepface 0.0.36 depends on tensorflow>=1.9.0
+    deepface 0.0.35 depends on tensorflow>=1.9.0
+    deepface 0.0.34 depends on tensorflow>=1.9.0
+    deepface 0.0.33 depends on tensorflow>=1.9.0
+    deepface 0.0.32 depends on tensorflow>=1.9.0
+    deepface 0.0.31 depends on tensorflow>=1.9.0
+    deepface 0.0.30 depends on tensorflow>=1.9.0
+    deepface 0.0.26 depends on tensorflow>=1.9.0
+    deepface 0.0.25 depends on tensorflow>=1.9.0
+    deepface 0.0.24 depends on tensorflow>=1.9.0
+    deepface 0.0.23 depends on tensorflow>=1.9.0
+    deepface 0.0.22 depends on tensorflow>=1.9.0
+    deepface 0.0.21 depends on tensorflow>=1.9.0
+    deepface 0.0.20 depends on tensorflow>=1.9.0
+    deepface 0.0.19 depends on tensorflow>=1.9.0
+    deepface 0.0.18 depends on tensorflow>=1.9.0
+    deepface 0.0.16 depends on tensorflow>=1.9.0
+    deepface 0.0.15 depends on tensorflow>=1.9.0
+    deepface 0.0.14 depends on tensorflow>=1.9.0
+    deepface 0.0.13 depends on tensorflow>=1.9.0
+    deepface 0.0.12 depends on tensorflow>=1.9.0
+    deepface 0.0.11 depends on tensorflow>=1.9.0
+    deepface 0.0.10 depends on tensorflow>=1.9.0
+    deepface 0.0.9 depends on tensorflow>=1.9.0
+    deepface 0.0.7 depends on tensorflow>=1.9.0
+    deepface 0.0.6 depends on tensorflow>=1.9.0
+    deepface 0.0.5 depends on tensorflow>=1.9.0
+    deepface 0.0.4 depends on tensorflow>=1.9.0
+    deepface 0.0.3 depends on tensorflow>=1.9.0
+    deepface 0.0.2 depends on tensorflow>=1.9.0
+    deepface 0.0.1 depends on tensorflow>=1.9.0
+
+Additionally, some packages in these conflicts have no matching distributions available for your environment:
+    tensorflow
+
+To fix this you could try to:
+1. loosen the range of package versions you've specified
+2. remove package versions to allow pip to attempt to solve the dependency conflict
+
+ERROR: 
+ResolutionImpossible: for 
+help visit https://pip.pyp
+a.io/en/latest/topics/depe
+ndency-resolution/#dealing
+-with-dependency-conflicts

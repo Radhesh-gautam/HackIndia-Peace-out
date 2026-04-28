@@ -1,0 +1,21 @@
+{
+  "profile": {
+    "name": "John Harrison",
+    "age": 72,
+    "condition": "Early-stage Alzheimer's",
+    "bloodType": "O Positive",
+    "medications": ["Donepezil (5mg)", "Memantine (10mg)", "Multivitamins"],
+    "history": [
+      "2025-12-10: Routine checkup - Stable",
+      "2025-08-22: Cognitive assessment - Score 22/30",
+      "2024-03-15: Initial diagnosis at Mayo Clinic"
+    ],
+    "home": [28.61, 77.23]
+  },
+  "vitals": {
+    "heartRate": { "current": 72, "history": [70, 72, 71, 73, 72, 74, 72], "unit": "BPM", "color": "#e53e3e", "max": 150 },
+    "oxygen": { "current": 98, "history": [97, 98, 98, 99, 98, 97, 98], "unit": "%", "color": "#3182ce", "max": 100 },
+    "temp": { "current": 98.6, "history": [98.4, 98.6, 98.5, 98.7, 98.6, 98.5, 98.6], "unit": "°F", "color": "#d69e2e", "max": 105 },
+    "steps": { "current": 4231, "history": [3800, 4000, 4100, 4150, 4200, 4210, 4231], "unit": "Steps", "color": "#38a169", "max": 10000 }
+  }
+}
